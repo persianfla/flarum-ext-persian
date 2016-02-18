@@ -145,38 +145,38 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: ارسال رایانامه برای تغییر گذرواژه
+      text: روی دکمه زیر کلیک کنید و سپس رایانامه خود را برای لینک تغییر گذرواژه بررسی نمایید.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
-      exit_full_screen_tooltip: Exit Full Screen
-      full_screen_tooltip: Full Screen
-      minimize_tooltip: Minimize
+      close_tooltip: بستن
+      exit_full_screen_tooltip: خروج از تمام صفحه
+      full_screen_tooltip: تمام صفحه
+      minimize_tooltip: کوچک کردن
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      body_placeholder: چیزی بنویسید...
+      discard_confirmation: "مطلب شما هنوز ارسال نشده است، اطمینان خاطر دارید که می‌خواهید آن را ابطال کنید؟"
+      submit_button: ارسال بحث
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: عنوان بحث
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "تغییرات شما هنوز ثبت‌نشده است، اطمینان خاطر دارید که می‌خواهید آن را ابطال کنید؟"
+      post_link: "نوشته #{number} در {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      posted_message: Your reply was posted.
-      submit_button: Post Reply
-      view_button: View
+      discard_confirmation: "پاسخ شما هنوز ارسال نشده است، اطمینان خاطر دارید که می‌خواهید آن را ابطال کنید؟"
+      posted_message: پاسخ شما ارسال گردید
+      submit_button: ارسال پاسخ
+      view_button: نمایش
 
     # These translations are used in the Confirm Password modal dialog.
     confirm_password:
@@ -186,24 +186,24 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_button: نمی‌توان پاسخ داد
+      cannot_reply_text: شما اجازه پاسخ در این مبحث را ندارید.
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "برای حذف این مبحث اطمینان خاطر دارید؟"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
-      rename_button: Rename
-      rename_text: "Enter a new title for this discussion:"
+      log_in_to_reply_button: برای ارسال پاسخ وارد شوید
+      rename_button: تغییر نام
+      rename_text: "عنوان جدیدی برای این مبحث وارد نمایید:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: "It looks like there are no discussions here."
+      empty_text: "به نظر می‌رسد که مبحثی تاکنون در اینجا ارسال نشده است."
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Mark as Read
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      mark_as_read_tooltip: علامت به‌عنوان خوانده‌شده
+      replied_text: "{username} در {ago} پاسخ داد"
+      started_text: "{username} در {ago} شروع نمود"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -216,61 +216,61 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: برای شما رایانامه‌ای در خصوص تغییر گذرواژه‌تان ارسال گردید. درصورتی‌که طی دقایق آتی آن را دریافت ننمودید پوشه هرزنامه‌های خود را بررسی نمایید.
+      submit_button: بازیابی گذرواژه
+      text: برای بازیابی گذرواژه رایانامه خود را وارد نمایید.
+      title: فراموشی گذرواژه
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
+      admin_button: مدیریت
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: رخ‌نما
+      search_placeholder: جستجو انجمن
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: نمی‌توان بحثی را آغاز نمود
+      mark_all_as_read_confirmation: "برای علامت تمامی مباحث به‌عنوان خوانده‌شده اطمینان دارید؟"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: تازه‌سازی
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
-      top_button: Top
+      latest_button: آخرین
+      newest_button: جدیدترین
+      oldest_button: قدیمی‌ترین
+      relevance_button: مرتبط
+      top_button: بالا
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "You need to confirm your email before you can log in. We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      confirmation_required_message: "قبل از وارد شدن بایستی رایانامه ارسال‌شده به {email} را تأیید نمایید. اگر به‌زودی به‌دستتان نرسید، پوشه هرزنامه‌های خود را بررسی نمایید."
+      forgot_password_link: "گذرواژه‌تان را فراموش نمودید؟"
+      invalid_login_message: جزئیات ورودتان صحیح نمی‌باشد.
       password_placeholder: => core.ref.password
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      sign_up_text: "حساب کاربری ندارید؟ <a>ثبت‌نام</a> نمایید."
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: نام کاربری و یا رایانامه
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} عنوان را تغییر داد"
+      empty_text: اعلانی وجود ندارد
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_tooltip: "{username} edited {ago}"
-      number_tooltip: "Post #{number}"
+      edited_tooltip: "{username} در {ago} ویرایش نمود"
+      number_tooltip: "نوشته #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -281,35 +281,35 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      now_link: هم‌اکنون
+      original_post_link: نوشته اصلی
+      unread_text: "{count} خوانده‌نشده"
+      viewing_text: "{index} از {count} نوشته|{index} از {count} نوشته"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_text: "{username} changed the title from {old} to {new}."
+      discussion_renamed_text: "{username} عنوان {old} را به {new} تغییر داد."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} بعدی"
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'جستجو تمامی مباحث برای "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Users
+      users_heading: کاربران
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: حساب
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      notify_by_web_heading: تارنما
+      notify_discussion_renamed_label: شخصی، نام بحثی که من شروع کردم را تغییر داد
+      privacy_disclose_online_label: اجازه نمایش وضعیت برخط بودنم
+      privacy_heading: حریم خصوصی
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
@@ -317,31 +317,32 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "قبلاً ثبت‌نام نمودید؟ <a>وارد شوید</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "{username} عزیز، خوش‌آمدید!"
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Remove
-      avatar_upload_button: Upload
-      bio_placeholder: Write something about yourself
+      avatar_remove_button: حذف
+      avatar_upload_button: بارگذاری
+      bio_placeholder: از خودتان بگویید...
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
-      online_text: Online
+      in_discussion_text: "در {discussion}"
+      joined_date_text: "در {ago} ملحق شد"
+      online_text: برخط
       posts_load_more_button: => core.ref.load_more
-      posts_link: Posts
+      posts_link: نوشته‌ها
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: بازرسی
       delete_button: => core.ref.delete
       delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "برای حذف این کاربر اطمینان خاطر دارید؟ تمامی نوشته‌های کاربر حذف خواهد شد."
       edit_button: => core.ref.edit
 
   # Translations in this namespace are used by the forum and admin interfaces.
@@ -429,33 +430,33 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    notifications: Notifications
-    okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    all_discussions: تمامی مباحث
+    change_email: تغییر رایانامه
+    change_password: تغییر گذرواژه
+    confirm_password: تایید گذرواژه
+    confirmation_email_sent: "رایانامه‌ای در خصوص تاییدیه حساب کاربری به {email} ارسال گردید. اگر به‌زودی آن را دریافت ننمودید پوشه هرزنامه‌های خود را بررسی کنید."
+    delete: حذف
+    delete_forever: حذف برای همیشه
+    discussions: مباحث
+    edit: ویرایش
+    email: رایانامه
+    load_more: بیشتر
+    log_in: ورود
+    log_out: خروج
+    mark_all_as_read: علامت همه به‌عنوان خوانده‌شده
+    notifications: اعلان
+    okay: خوب                                     # Referenced by flarum-tags.yml
+    password: گذرواژه
+    reply: پاسخ                                 # Referenced by flarum-mentions.yml
+    restore: بازیابی
+    save_changes: ذخیره تغییرات                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: تنظیمات
+    sign_up: ثبت‌نام
+    some_others: "{count} دیگر|{count} دیگر"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: شروع یک بحث
+    username: نام کاربری
+    write_a_reply: نوشتن پاسخ
+    you: شما                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -463,11 +464,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: مدیرکل
+    admins: مدیران کل
+    guest: مهمان
+    guests: مهمانان
+    member: عضو
+    members: اعضا
+    mod: مدیر
+    mods: مدیران

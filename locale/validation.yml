@@ -57,13 +57,13 @@ validation:
   string: "The :attribute must be a string."
   timezone: "The :attribute must be a valid zone."
   unique: "The :attribute has already been taken."
-  url: "The :attribute format is invalid."
+  url: "قالب :attribute نامعتبر است"
 
   attributes:
-    username: username
-    password: password
-    email: email
-    title: title
-    content: content
-    name_singular: singular name
-    name_plural: plural name
+    username: نام کاربری
+    password: گذرواژه
+    email: رایانامه
+    title: عنوان
+    content: محتویات
+    name_singular: نام مفرد
+    name_plural: نام جمع
