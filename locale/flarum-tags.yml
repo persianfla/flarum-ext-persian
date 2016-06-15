@@ -46,7 +46,6 @@ flarum-tags:
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
       about_tags_text: "برچسب‌ها برای دسته‌بندی مباحث استفاده می‌شوند. برچسب‌های اصلی مانند دسته‌بندی انجمن‌های گفتگو هستند و می‌توان آن‌ها را در دو سطح تعریف نمود. برچسب‌های ثانویه را نمی‌توان سطح‌بندی نمود ولی برای مدیریت بهتر مباحث کارایی دارند."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: برچسب‌های اصلی
