@@ -120,14 +120,14 @@ core:
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_indefinitely_button: برای همیشه
+      allow_some_minutes_button: "برای {count} دقیقه|برای {count} دقیقه"
+      allow_ten_minutes_button: برای 10 دقیقه
+      allow_until_reply_button: تا ارسال بعدی
+      everyone_button: همه
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: بسته شده
+      signup_open_button: باز
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -139,9 +139,9 @@ core:
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
-      confirm_password_label: Confirm Password
+      confirm_password_label: تایید گذرواژه
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: 'گذرواژه وارد شده معتبر نیست.'
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -342,26 +342,26 @@ core:
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: ارسال دوباره تاییدیه
+      sent_message: ارسال شد
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: پنهان
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[حذف شده]"
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      generic_message: "اوپسی! مشکلی به‌وجود آمد. لطغا صفحه را دوباره بارگذاری نمایید."
+      not_found_message: یافت نشد.
+      permission_denied_message: شما اجازخ انجام این کار را ندارید.
+      rate_limit_exceeded_message: خیلی داره سریع پیش می‌روی لطغا کمی صبر نمایید.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -371,16 +371,16 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, و {third}"
+      two_text: "{first} و {second}"
 
   # Translations in this namespace are used in basic HTML interface.
   basic:
-    javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-    load_error_message: Something went wrong while trying to load the full version of this site.
-    loading_text: Loading...
-    next_page_button: Next Page
-    previous_page_button: Previous Page
+    javascript_disabled_message: این وبسایت بهترین عملکردن را با مرورگرهای پیشرفته و JavaScript فعل را دارد.
+    load_error_message: مشکلی در فرایند بارگذاری نسخه کامل به‌وجود آمد.
+    loading_text: بارگذاری...
+    next_page_button: صفحه بعد
+    previous_page_button: صفحه قبل
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
