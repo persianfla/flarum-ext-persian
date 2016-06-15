@@ -9,16 +9,16 @@ flarum-approval:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      approve_posts_label: Approve posts
-      reply_without_approval_label: Reply without approval
+      approve_posts_label: تایید نمودن نوشته‌ها
+      reply_without_approval_label: ارسال نمودن بدون نیاز به تایید
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed in the post header.
     post:
-      awaiting_approval_text: Awaiting approval
+      awaiting_approval_text: منتظر تایید شدن
 
     # These translations are used by the post control buttons.
     post_controls:
-      approve_button: Approve
+      approve_button: تایید نمودن
