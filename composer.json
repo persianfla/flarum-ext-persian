@@ -17,6 +17,11 @@
     "require": {
         "flarum/core": "^0.1.0-beta.5"
     },
+    "autoload": {
+        "psr-4": {
+            "Sijad\\Persian\\": "src/"
+        }
+    },
     "extra": {
         "flarum-extension": {
             "title": "Persian",

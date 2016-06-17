@@ -1,10 +1,8 @@
 <?php
 
-use Flarum\Event\ConfigureLocales;
 use Illuminate\Contracts\Events\Dispatcher;
+use Sijad\Persian\Listener;
 
 return function (Dispatcher $events) {
-    $events->listen(ConfigureLocales::class, function (ConfigureLocales $event) {
-        $event->loadLanguagePackFrom(__DIR__);
-    });
+    $events->subscribe(Listener\AddLanguagePack::class);
 };
