@@ -3,6 +3,7 @@ flarum-approval:
     permissions:
       approve_posts_label: تایید نمودن نوشته‌ها
       reply_without_approval_label: ارسال نمودن بدون نیاز به تایید
+      start_discussions_without_approval_label: شروع گفتگو بدون تاییدیه
   forum:
     badge:
       awaiting_approval_tooltip: منتظر تایید شدن
@@ -10,3 +11,5 @@ flarum-approval:
       awaiting_approval_text: منتظر تایید شدن
     post_controls:
       approve_button: تایید نمودن
+  ref:
+    awaiting_approval: منتظر تاییده
