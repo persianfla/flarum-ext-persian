@@ -1,4 +1,4 @@
-<div dir="rtl"># مشارکت</div>
+<h1 dir="rtl">مشارکت</h1>
 
 <div dir="rtl">
 برای شروع ترجمه پروژه در ترنسیفکس به آدرس https://www.transifex.com/alir3z4/flarum-extension-persian رفته و درخواست عضویت بدهید.
