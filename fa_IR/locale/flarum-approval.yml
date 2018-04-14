@@ -1,0 +1,12 @@
+flarum-approval:
+  admin:
+    permissions:
+      approve_posts_label: تایید نمودن نوشته‌ها
+      reply_without_approval_label: ارسال نمودن بدون نیاز به تایید
+  forum:
+    badge:
+      awaiting_approval_tooltip: منتظر تایید شدن
+    post:
+      awaiting_approval_text: منتظر تایید شدن
+    post_controls:
+      approve_button: تایید نمودن

@@ -1,0 +1,9 @@
+flarum-auth-facebook:
+  admin:
+    facebook_settings:
+      app_id_label: شناسه App
+      app_secret_label: کلید App
+      title: تنظیمات Facebook
+  forum:
+    log_in:
+      with_facebook_button: ورود از طریق Facebook

@@ -1,0 +1,30 @@
+flarum-subscriptions:
+  forum:
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: دنبال نکن
+      unignore_button: نادیده نگیر
+    index:
+      following_link: => flarum-subscriptions.ref.following
+    notifications:
+      new_post_text: "{username} ارسال کرده"
+    settings:
+      follow_after_reply_label: به طور خودکار گفتگویی را که پاسخ میدهم را دنبال کن
+      notify_new_post_label: کسی در مبحثی که من دنبال میکنم ارسال کند
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: => flarum-subscriptions.ref.following
+      following_text: با خبر شدن از تمامی پاسخ ها.
+      ignoring_button: => flarum-subscriptions.ref.ignoring
+      ignoring_text: هیچوقت با خبر نشوید. از لیست گفتگو ها مخفی کن.
+      not_following_button: دنبال نمیشود
+      not_following_text: "با خبر شوید فقط وقتی @ذکر شدید."
+      notify_alert_tooltip: خبر گفتن از انجمن وقتی ارسالی های جدیدی هست.
+      notify_email_tooltip: وقتی ارسالی های جدید هست، ایمیل دریافت کن.
+  ref:
+    follow: دنبال کن
+    following: دنبال کردن
+    ignoring: نادیده گرفتن

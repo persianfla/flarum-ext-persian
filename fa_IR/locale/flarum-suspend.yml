@@ -1,20 +1,8 @@
 flarum-suspend:
-
-  ##
-  # UNIQUE KEYS - The following keys are used in only one location each.
-  ##
-
-  # Translations in this namespace are used by the admin interface.
   admin:
-
-    # These translations are used in the Permissions page of the admin interface.
     permissions:
       suspend_users_label: کاربران مسدود شده
-
-  # Translations in this namespace are used by the forum user interface.
   forum:
-
-    # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: تعلیق برای همیشه
       limited_time_label: تعلیق برای مدت محدود...
@@ -23,11 +11,7 @@ flarum-suspend:
       status_heading: وضعیت تعلیق
       submit_button: => core.ref.save_changes
       title: "مسدود نمودن {username}"
-
-    # These translations are displayed as tooltips for user badges.
     user_badge:
       suspended_tooltip: مسدود شده
-
-    # These translations are found on the user profile page (admin function).
     user_controls:
       suspend_button: مسدود

@@ -1,0 +1,15 @@
+flarum-sticky:
+  admin:
+    permissions:
+      sticky_discussions_label: مبحث چسبناک
+  forum:
+    badge:
+      sticky_tooltip: => flarum-sticky.ref.sticky
+    discussion_controls:
+      sticky_button: => flarum-sticky.ref.sticky
+      unsticky_button: غیر چسبناک نمودن
+    post_stream:
+      discussion_stickied_text: "{username} مبحث را چسبناک نمود."
+      discussion_unstickied_text: "{username} مبحث را از حالت چسبناک خارج نمود."
+  ref:
+    sticky: چسبناک

@@ -1,0 +1,9 @@
+flarum-auth-github:
+  admin:
+    github_settings:
+      client_id_label: شناسه کاربری
+      client_secret_label: کلید کاربری
+      title: تنظیمات GitHub
+  forum:
+    log_in:
+      with_github_button: ورود از طریق GitHub

@@ -1,26 +1,12 @@
 flarum-flags:
-
-  ##
-  # UNIQUE KEYS - The following keys are used in only one location each.
-  ##
-
-  # Translations in this namespace are used by the admin interface.
   admin:
-
-    # These translations are used in the Permissions page of the admin interface.
     permissions:
       flag_posts_label: پرچم‌دار نمودن نوشته‌ها
       view_flags_label: دیدن نوشته‌های پرچم‌دار
-
-    # These translations are used in the Flags Settings modal dialog.
     settings:
       guidelines_url_label: آدرس راهنمای انجمن
       title: تنظیمات پرچم‌ها
-
-  # Translations in this namespace are used by the forum user interface.
   forum:
-
-    # These translations are used by the Flag Post modal dialog.
     flag_post:
       confirmation_message: با تشکر از پرچم‌دار نمودن این پست. مدیران ما بزودی این را بررسی می‌نمایند.
       dismiss_button: => core.ref.okay
@@ -30,32 +16,20 @@ flarum-flags:
       reason_off_topic_text: این نوشته به مبحث فعلی ربطی ندارد و بایستی به مکانی دیگر منتقل شود.
       reason_other_label: دیگر
       reason_spam_label: هرزنامه
-      reason_spam_text: This post is an advertisement.
       reason_spam_text: این پست حاوی تبلیغات می‌باشد.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
-
-    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
       empty_text: بدون پرچم
+      item_text: "{username} در<em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
-
-    # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_tooltip: رد پرچم
+      dismiss_flag_button: پرچم را رد کن
       flagged_by_text: "{username} پرچم‌دار نمود."
       flagged_by_with_reason_text: "{username} به عنوان {reason} پرچم‌دار نمود"
-
-    # These translations are used by the post control buttons.
     post_controls:
       flag_button: پرچم
-
-  ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
-  ##
-
-  # Translations in this namespace are referenced by two or more unique keys.
   ref:
     flag_post: پرچم‌دار نمودن نوشته
     flagged_posts: نوشته‌های پرچم‌دار

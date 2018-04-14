@@ -1,4 +1,4 @@
-flarum-auth-github:
+flarum-auth-facebook:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -7,15 +7,15 @@ flarum-auth-github:
   # Translations in this namespace are used by the admin interface.
   admin:
 
-    # These translations are used in the GitHub Settings modal dialog.
-    github_settings:
-      client_id_label: شناسه کاربری
-      client_secret_label: کلید کاربری
-      title: تنظیمات GitHub
+    # These translations are used in the Facebook Settings modal dialog.
+    facebook_settings:
+      app_id_label: App ID
+      app_secret_label: App Secret
+      title: Facebook Settings
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_github_button: ورود از طریق GitHub
+      with_facebook_button: Log In with Facebook

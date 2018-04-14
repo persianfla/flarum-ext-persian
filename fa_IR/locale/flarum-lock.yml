@@ -1,0 +1,17 @@
+flarum-lock:
+  admin:
+    permissions:
+      lock_discussions_label: قفل مباحث
+  forum:
+    badge:
+      locked_tooltip: قفل شده
+    discussion_controls:
+      lock_button: قفل نمودن
+      unlock_button: باز نمودن
+    notifications:
+      discussion_locked_text: "{username} قفل نمود"
+    post_stream:
+      discussion_locked_text: "{username} مبحث را قفل نمود."
+      discussion_unlocked_text: "{username} مبحث را باز نمود."
+    settings:
+      notify_discussion_locked_label: شخصی مباحث مرا قفل نمود

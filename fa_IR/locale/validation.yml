@@ -35,6 +35,7 @@ validation:
     string: "The :attribute may not be greater than :max characters."
     array: "The :attribute may not have more than :max items."
   mimes: "The :attribute must be a file of type: :values."
+  mimetypes: "The :attribute must be a file of type: :values."
   min:
     numeric: "The :attribute must be at least :min."
     file: "The :attribute must be at least :min kilobytes."
@@ -61,7 +62,6 @@ validation:
   timezone: "The :attribute must be a valid zone."
   unique: "The :attribute has already been taken."
   url: "قالب :attribute نامعتبر است"
-
   attributes:
     username: نام کاربری
     password: گذرواژه
@@ -70,7 +70,3 @@ validation:
     content: محتویات
     name_singular: نام مفرد
     name_plural: نام جمع
-
-  custom:
-    username:
-      regex: "The username may only contain letters, numbers, and dashes."

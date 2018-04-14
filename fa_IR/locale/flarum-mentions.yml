@@ -1,0 +1,19 @@
+flarum-mentions:
+  forum:
+    composer:
+      reply_to_post_text: "پاسخ به #{number}"
+    notifications:
+      others_text: => core.ref.some_others
+      post_mentioned_text: "{username} به نوشته شما پاسخ داد"
+      user_mentioned_text: "{username} به شما اشاره نمود"
+    post:
+      mentioned_by_self_text: "{users} به این پاسخ دادند."
+      mentioned_by_text: "{users} به این پاسخ دادند."
+      others_text: => core.ref.some_others
+      reply_link: => core.ref.reply
+      you_text: => core.ref.you
+    settings:
+      notify_post_mentioned_label: شخصی به نوشته‌های من پاسخ داد
+      notify_user_mentioned_label: شخصی به من اشاره کرد
+    user:
+      mentions_link: اشاره‌ها
