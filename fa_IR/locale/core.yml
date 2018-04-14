@@ -356,14 +356,13 @@ core:
     activate_account:
       subject: حساب جدید خود را فعال کنید
       body: |
-          Hey {username}!
+          درود {username}!
 
-          Someone (hopefully you!) has signed up to {forum} with this email address.
-
-          If this was you, simply click the following link and your account will be activated:
+          یک نفر (امیدواریم خود شما) در انجمن {forum} با این آدرس ایمیل.
+          اگر این شما بودید، بسادگی حساب کاربری خود را با کلیک بر روی لینک زیر فعال کنید:
           {url}
 
-          If you did not sign up, please ignore this email.
+          اگر شما ثبت نام نکردید، لطفا این ایمیل را نادیده بگیرید.
     confirm_email:
       subject: ایمیل جدید خود را تایید کنید
       body: |
