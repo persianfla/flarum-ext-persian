@@ -1,7 +1,7 @@
 <div dir="rtl"># مشارکت</div>
 
 <div dir="rtl">
-برای شروع ترجمه پروژه در فکس به آدرس ترhttps://www.transifex.com/alir3z4/flarum-extension-persian رفته و درخواست عضویت بدهید.
+برای شروع ترجمه پروژه در ترنسیفکس به آدرس ترhttps://www.transifex.com/alir3z4/flarum-extension-persian رفته و درخواست عضویت بدهید.
 تمامی ترجمه ها در ترنسیفکس بروزرسانی شده با آخرین تغییرات نسخه انگلیسی فلاروم است.
 </div>
 
