@@ -78,13 +78,6 @@ source_file = en_US/locale/flarum-pusher.yml
 source_lang = en_US
 type = YML
 
-[flarum-extension-persian.flarum-statisticsyml]
-file_filter = <lang>/locale/flarum-statistics.yml
-minimum_perc = 0
-source_file = en_US/locale/flarum-statistics.yml
-source_lang = en_US
-type = YML
-
 [flarum-extension-persian.flarum-stickyyml]
 file_filter = <lang>/locale/flarum-sticky.yml
 minimum_perc = 0
