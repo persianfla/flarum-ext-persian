@@ -1,19 +1,37 @@
 flarum-subscriptions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
   forum:
+
+    # These translations are displayed as tooltips for discussion badges.
     badge:
       following_tooltip: => flarum-subscriptions.ref.following
       ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+
+    # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
       unfollow_button: دنبال نکن
       unignore_button: نادیده نگیر
+
+    # These translations are used on the index page, peripheral to the discussion list.
     index:
       following_link: => flarum-subscriptions.ref.following
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       new_post_text: "{username} ارسال کرده"
+
+    # These translations are used in the Settings page.
     settings:
       follow_after_reply_label: به طور خودکار گفتگویی را که پاسخ میدهم را دنبال کن
       notify_new_post_label: کسی در مبحثی که من دنبال میکنم ارسال کند
+
+    # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
@@ -24,6 +42,12 @@ flarum-subscriptions:
       not_following_text: "با خبر شوید فقط وقتی @ذکر شدید."
       notify_alert_tooltip: خبر گفتن از انجمن وقتی ارسالی های جدیدی هست.
       notify_email_tooltip: وقتی ارسالی های جدید هست، ایمیل دریافت کن.
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: دنبال کن
     following: دنبال کردن
