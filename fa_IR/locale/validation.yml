@@ -1,33 +1,39 @@
 validation:
   accepted: "The :attribute must be accepted."
-  active_url: "The :attribute is not a valid URL."
-  after: "The :attribute must be a date after :date."
-  alpha: "The :attribute may only contain letters."
-  alpha_dash: "The :attribute may only contain letters, numbers, and dashes."
-  alpha_num: "The :attribute may only contain letters and numbers."
-  array: "The :attribute must be an array."
-  before: "The :attribute must be a date before :date."
+  active_url: ":attribute یک آدرس معتبر نیست."
+  after: ":attribute باید یک تاریخ بعد از :date باشد."
+  after_or_equal: ""
+  alpha: ":attribute میتواند تنها شامل کلمات باشد."
+  alpha_dash: ":attribute میتواند تنها شامل حروف، اعداد و خط تیره باشد."
+  alpha_num: ":attribute میتواند شامل حروف و اعداد باشد."
+  array: ":attribute باید یک آرایه باشد."
+  before: ":attribute باید یک تاریخ قبل از :date باشد."
+  before_or_equal: ""
   between:
-    numeric: "The :attribute must be between :min and :max."
-    file: "The :attribute must be between :min and :max kilobytes."
-    string: "The :attribute must be between :min and :max characters."
-    array: "The :attribute must have between :min and :max items."
-  boolean: "The :attribute field must be true or false."
-  confirmed: "The :attribute confirmation does not match."
-  date: "The :attribute is not a valid date."
+    numeric: ":attribute باید بین :min و :max باشد."
+    file: ":attribute باید بین :min و :max کیلوبایت باشد."
+    string: ":attribute باید بین :min و :max حرف باشد."
+    array: ":attribute باید بین تعداد :min و :max باشد."
+  boolean: ":attribute باید یا صحیح یا غیر صحیح باشد."
+  confirmed: "تاییده :attribute قابل مقایسه نیست."
+  date: ":attribute تاریخ معتبری نیست."
   date_format: "The :attribute does not match the format :other."
   different: "The :attribute and :other must be different."
   digits: "The :attribute must be :digits digits."
   digits_between: "The :attribute must be between :min and :max digits."
+  dimensions: ""
   distinct: "The :attribute field has a duplicate value."
   email: "The :attribute must be a valid email address."
   exists: "The selected :attribute is invalid."
+  file: ""
   filled: "The :attribute field is required."
   image: "The :attribute must be an image."
   in: "The selected :attribute is invalid."
   in_array: "The :attribute field does not exist in :other."
-  integer: "The :attribute must be an integer."
-  ip: "The :attribute must be a valid IP address."
+  integer: ":attribute باید یک عدد باشد."
+  ip: ":attribute باید یک آی پی آدرس معتبر باشد."
+  ipv4: ""
+  ipv6: ""
   json: "The :attribute must be a valid JSON string."
   max:
     numeric: "The :attribute may not be greater than :max."
@@ -35,6 +41,7 @@ validation:
     string: "The :attribute may not be greater than :max characters."
     array: "The :attribute may not have more than :max items."
   mimes: "The :attribute must be a file of type: :values."
+  mimetypes: "The :attribute must be a file of type: :values."
   min:
     numeric: "The :attribute must be at least :min."
     file: "The :attribute must be at least :min kilobytes."
@@ -59,8 +66,9 @@ validation:
     array: "The :attribute must contain :size items."
   string: "The :attribute must be a string."
   timezone: "The :attribute must be a valid zone."
-  unique: "The :attribute has already been taken."
-  url: "قالب :attribute نامعتبر است"
+  unique: ":attribute از قبل گرفته شده."
+  uploaded: ""
+  url: "قالب :attribute نامعتبر است."
 
   attributes:
     username: نام کاربری
@@ -70,7 +78,5 @@ validation:
     content: محتویات
     name_singular: نام مفرد
     name_plural: نام جمع
-
-  custom:
-    username:
-      regex: "The username may only contain letters, numbers, and dashes."
+    tag_count_primary: ''
+    tag_count_secondary: ''

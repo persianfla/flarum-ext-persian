@@ -19,16 +19,13 @@ core:
       colored_header_label: سربرگ رنگی
       colors_heading: رنگ ها
       colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_footer_heading: پاورقی سفارشی
-      custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: سربرگ سفارشی
-      custom_header_text: => core.ref.custom_header_text
+      custom_header_text: "اضافه کردن اچ تی ام ال به بالاترین بخش صفحه، بالای سربرگ فلاروم."
       custom_styles_heading: استایل های سفارشی
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
       dark_mode_label: حالت تاریک
       edit_css_button: ویرایش سی اس اس سفارشی
-      edit_footer_button: => core.ref.custom_footer_title
-      edit_header_button: => core.ref.custom_header_title
+      edit_header_button: ویرایش سربرگ سفارشی
       enter_hex_message: لطفا کد رنگی هکسادسیمال وارد کنید.
       favicon_heading: فاویکون
       favicon_text: عکسی آپلود کنید که به عنوان نشانه میانبر انجمن نمایش داده شود.
@@ -44,7 +41,7 @@ core:
       forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
       forum_title_heading: عنوان انجمن
       home_page_heading: صفحه خانه
-      home_page_text: Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root.
+      home_page_text: ""
       saved_message: تغییرات شما ذخیره شد.
       show_language_selector_label: انتخاب کننده زبان را نشان بده
       submit_button: => core.ref.save_changes
@@ -53,7 +50,14 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      help_link: کمک بگیر
+      beta_warning_text: ""
+      contributing_text: ""
+      extension_text: ""
+      features_text: ""
+      support_text: ""
+      troubleshooting_text: ""
+      version_text: ""
+      welcome_text: ""
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -61,15 +65,9 @@ core:
       submit_button: => core.ref.save_changes
       title: ویرایش سی اس اس سفارشی
 
-    # These translations are used in the Edit Custom Footer modal dialog.
-    edit_footer:
-      customize_text: => core.ref.custom_footer_text
-      submit_button: => core.ref.save_changes
-      title: => core.ref.custom_footer_title
-
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: => core.ref.color
+      color_label: رنگ
       delete_button: حذف گروه
       delete_confirmation: "به حذف این گروه اطمینان دارید ؟ افراد گروه حذف نمیشوند."
       icon_label: آیکون
@@ -82,9 +80,9 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: => core.ref.custom_header_text
+      customize_text: "اضافه کردن اچ تی ام ال به بالاترین بخش صفحه، بالای سربرگ فلاروم."
       submit_button: => core.ref.save_changes
-      title: => core.ref.custom_header_title
+      title: ویرایش سربرگ سفارشی
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -197,7 +195,6 @@ core:
       exit_full_screen_tooltip: خروج از تمام صفحه
       full_screen_tooltip: تمام صفحه
       minimize_tooltip: کوچک کردن
-      preview_tooltip: پیش نمایش
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -380,12 +377,13 @@ core:
       avatar_remove_button: حذف
       avatar_upload_button: بارگذاری
       avatar_upload_tooltip: آپلود یک آواتار جدید
+      bio_placeholder: ''
       discussions_link: => core.ref.discussions
       in_discussion_text: "در {discussion}"
       joined_date_text: "در {ago} ملحق شد"
       online_text: برخط
       posts_load_more_button: => core.ref.load_more
-      posts_link: نوشته‌ها
+      posts_link: مطالب
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -436,39 +434,24 @@ core:
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       javascript_disabled_message: این وبسایت به بهترین شکل در مرورگرهای جدید که جاوا اسکریپت فعال است نمایش داده میشود.
-      load_error_message: زمانی که سعی در بارگذاری نسخه کامل وبسایت داشتیم اتفاقی افتاد. لطفا صفحه را به سختی تازه سازی کنید.
+      load_error_message: ''
       loading_text: بارگیری...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: => core.ref.previous_page
-
-    # Translations in this namespace are displayed when Flarum encounters an error.
-    error:
-      403_message: شما اجازه دسترسی به این صفحه را ندارید.
-      404_message: صفحه درخواست شده پیدا نشد.
-      404_return_link: "بازگشت به {forum}"
-      500_message: وقتی صفحه در حال بارگذاری بود خطایی رخ داد.
-      503_message: "{forum} در حال تعمیرات است. لطفا صبور باشید."
+      previous_page_button: صفحه قبلی
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
-      previous_page_button: => core.ref.previous_page
-
-    # Translations in this namespace are displayed by the Log Out confirmation interface.
-    log_out:
-      log_out_button: => core.ref.log_out
-      log_out_confirmation: "آیا به خروج از {forum} اطمینان دارید ؟"
-      title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
-    reset_password:
-      confirm_password_label: تایید رمز عبور جدید
-      new_password_label: رمز عبور جدید
-      submit_button: => core.ref.save_changes
+    reset:
+      confirm_password_label: => core.ref.confirm_password
+      password_label: => core.ref.password
+      submit_button: ''
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
@@ -482,14 +465,13 @@ core:
     activate_account:
       subject: حساب جدید خود را فعال کنید
       body: |
-               Hey {username}!
+               درود {username}!
 
-               Someone (hopefully you!) has signed up to {forum} with this email address.
-
-               If this was you, simply click the following link and your account will be activated:
+               یک نفر (امیدواریم خود شما) در انجمن {forum} با این آدرس ایمیل.
+               اگر این شما بودید، بسادگی حساب کاربری خود را با کلیک بر روی لینک زیر فعال کنید:
                {url}
 
-               If you did not sign up, please ignore this email.
+               اگر شما ثبت نام نکردید، لطفا این ایمیل را نادیده بگیرید.
     # These translations are used in emails sent when users change their email address.
     confirm_email:
       subject: ایمیل جدید خود را تایید کنید
@@ -523,16 +505,11 @@ core:
     all_discussions: تمامی مباحث
     change_email: تغییر رایانامه
     change_password: تغییر گذرواژه
-    color: رنگ                                 # Referenced by flarum-tags.yml
     confirm_password: تاید رمز عبور
     confirmation_email_sent: "رایانامه‌ای در خصوص تاییدیه حساب کاربری به {email} ارسال گردید. اگر به‌زودی آن را دریافت ننمودید پوشه هرزنامه‌های خود را بررسی کنید."
-    custom_footer_text: اضافه کردن اچ تی ام ال به پایینتر بخش صفحه.
-    custom_footer_title: ویرایش پاورقی سفارشی
-    custom_header_text: "اضافه کردن اچ تی ام ال به بالاترین بخش صفحه، بالای سربرگ فلاروم."
-    custom_header_title: ویرایش سربرگ سفارشی
     delete: حذف
     delete_forever: حذف برای همیشه
-    discussions: مباحث                     # Referenced by flarum-statistics.yml
+    discussions: مباحث
     edit: ویرایش
     email: رایانامه
     load_more: بیشتر
@@ -543,9 +520,6 @@ core:
     notifications: اعلان
     okay: خوب                                     # Referenced by flarum-tags.yml
     password: گذرواژه
-    posts: مطالب                                 # Referenced by flarum-statistics.yml
-    remove: حذف
-    previous_page: صفحه قبلی
     rename: تغییر نام
     reply: پاسخ                                 # Referenced by flarum-mentions.yml
     reset_your_password: تنظیم دوباره رمز عبور شما
@@ -556,7 +530,6 @@ core:
     some_others: "{count} دیگر|{count} دیگر"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: شروع یک بحث
     username: نام کاربری
-    users: کاربران                                 # Referenced by flarum-statistics.yml
     write_a_reply: نوشتن پاسخ
     you: شما                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 

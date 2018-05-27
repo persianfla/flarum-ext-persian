@@ -1,0 +1,114 @@
+[main]
+host = https://www.transifex.com
+
+[flarum-extension-persian.coreyml]
+file_filter = <lang>/locale/core.yml
+minimum_perc = 0
+source_file = en_US/locale/core.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-akismetyml]
+file_filter = <lang>/locale/flarum-akismet.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-akismet.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-approvalyml]
+file_filter = <lang>/locale/flarum-approval.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-approval.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-auth-facebookyml]
+file_filter = <lang>/locale/flarum-auth-facebook.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-auth-facebook.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-auth-githubyml]
+file_filter = <lang>/locale/flarum-auth-github.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-auth-github.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-auth-twitteryml]
+file_filter = <lang>/locale/flarum-auth-twitter.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-auth-twitter.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-flagsyml]
+file_filter = <lang>/locale/flarum-flags.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-flags.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-likesyml]
+file_filter = <lang>/locale/flarum-likes.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-likes.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-lockyml]
+file_filter = <lang>/locale/flarum-lock.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-lock.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-mentionsyml]
+file_filter = <lang>/locale/flarum-mentions.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-mentions.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-pusheryml]
+file_filter = <lang>/locale/flarum-pusher.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-pusher.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-stickyyml]
+file_filter = <lang>/locale/flarum-sticky.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-sticky.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-subscriptionsyml]
+file_filter = <lang>/locale/flarum-subscriptions.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-subscriptions.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-suspendyml]
+file_filter = <lang>/locale/flarum-suspend.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-suspend.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.flarum-tagsyml]
+file_filter = <lang>/locale/flarum-tags.yml
+minimum_perc = 0
+source_file = en_US/locale/flarum-tags.yml
+source_lang = en_US
+type = YML
+
+[flarum-extension-persian.validationyml]
+file_filter = <lang>/locale/validation.yml
+minimum_perc = 0
+source_file = en_US/locale/validation.yml
+source_lang = en_US
+type = YML

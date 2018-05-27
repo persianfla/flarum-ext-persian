@@ -14,6 +14,6 @@ class AddLanguagePack
 
     public function addLanguage(ConfigureLocales $event)
     {
-        $event->loadLanguagePackFrom(__DIR__.'/../..');
+        $event->loadLanguagePackFrom(__DIR__.'/../../fa_IR/');
     }
 }
