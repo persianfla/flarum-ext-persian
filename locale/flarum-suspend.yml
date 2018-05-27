@@ -9,25 +9,25 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: کاربران مسدود شده
+      suspend_users_label: Suspend users
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: تعلیق برای همیشه
-      limited_time_label: تعلیق برای مدت محدود...
-      limited_time_days_text: " روز"
-      not_suspended_label: مسدود نشده
-      status_heading: وضعیت تعلیق
+      indefinitely_label: Suspended indefinitely
+      limited_time_label: Suspended for a limited time...
+      limited_time_days_text: " days"
+      not_suspended_label: Not suspended
+      status_heading: Suspension Status
       submit_button: => core.ref.save_changes
-      title: "مسدود نمودن {username}"
+      title: "Suspend {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: مسدود شده
+      suspended_tooltip: Suspended
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: مسدود
+      suspend_button: Suspend
