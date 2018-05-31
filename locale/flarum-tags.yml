@@ -57,38 +57,38 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
-      choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
-      edit_title: "Edit Tags for {title}"
+      choose_primary_placeholder: "انتخاب یک تگ اصلی|انتخاب {count} تگ اصلی"
+      choose_secondary_placeholder: "1 تگ دیگر را انتخاب کنید|{count} تگ دیگر را انتخاب کنید"
+      edit_title: "ویرایش تگ‌های {title}"
       submit_button: => core.ref.okay
-      title: Choose Tags for Your Discussion
+      title: برای مبحث خودتان تگ‌هایی را انتخاب کنید
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Choose Tags
+      choose_tags_link: انتخاب تگ
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Edit Tags
+      edit_tags_button: ویرایش تگ‌ها
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: More...
+      more_link: بیشتر...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Untagged
+      untagged_link: بدون تگ
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} added the {tagsAdded}."
-      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
-      removed_tags_text: "{username} removed the {tagsRemoved}."
-      tags_text: "{tags} tag|{tags} tags"
+      added_tags_text: "{username} {tagsAdded}  را افزود."
+      added_and_removed_tags_text: "{username} {tagsAdded} را افزود و {tagsRemoved} را حذف کرد."
+      removed_tags_text: "{username} {tagsRemoved} را حذف کرد."
+      tags_text: "تگ {tags}|تگ {tags}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Deleted
+    deleted_tag_text: حذف شده
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Create Tag
-    name: Name
-    tags: Tags
+    create_tag: ساخت تگ
+    name: نام
+    tags: تگ‌ها

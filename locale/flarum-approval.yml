@@ -26,7 +26,7 @@ flarum-approval:
 
     # These translations are used by the post control buttons.
     post_controls:
-      approve_button: Approve
+      approve_button: تأیید
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -34,4 +34,4 @@ flarum-approval:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    awaiting_approval: Awaiting approval
+    awaiting_approval: در انتظار تأیید شدن

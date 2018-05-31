@@ -17,6 +17,6 @@ flarum-akismet:
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      akismet_flagged_text: Akismet flagged as spam
-      not_spam_button: Not Spam
+      akismet_flagged_text: Akismet این پست را به عنوان هرزنامه علامت زده
+      not_spam_button: هرزنامه نیست
 

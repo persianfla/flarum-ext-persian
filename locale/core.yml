@@ -12,6 +12,7 @@ core:
       developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
       install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
       temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      title: Add Extension
 
     # These translations are used in the Appearance page.
     appearance:
@@ -42,6 +43,7 @@ core:
       home_page_heading: Home Page
       home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
       saved_message: Your changes were saved.
+      show_language_selector_label: Show language selector
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Welcome Banner
       welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
@@ -147,6 +149,7 @@ core:
       start_discussions_label: شروع مبحث جدید
       view_discussions_label: دیدن مباحث
       view_post_ips_label: نمایش آدرس IP نوشته‌ها
+      view_user_list_label: View user list
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -223,8 +226,7 @@ core:
       delete_confirmation: "برای حذف این مبحث مطمئن هستید؟"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: برای ارسال پاسخ وارد شوید
-      rename_button: تغییر نام
-      rename_text: "عنوانی برای مبحث جدید وارد کنید:"
+      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -238,10 +240,16 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
+      activate_button: فعال کردن کاربر
+      email_heading: => core.ref.email
       email_label: => core.ref.email
+      groups_heading: گروه‌ها
+      password_heading: => core.ref.password
       password_label: => core.ref.password
+      set_password_label: تغییر گذرواژه
       submit_button: => core.ref.save_changes
       title: ویرایش کاربر
+      username_heading: => core.ref.username
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -257,6 +265,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: مدیریت
+      back_to_index_tooltip: برگشت به لیست مباحث
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: پروفایل
@@ -286,6 +295,7 @@ core:
       forgot_password_link: "گذرواژه‌تان را فراموش کردید؟"
       invalid_login_message: اطلاعات واردشده صحیح نیست.
       password_placeholder: => core.ref.password
+      remember_me_label: مرا به خاطر بسپار
       sign_up_text: "حساب کاربری ندارید؟ <a>ثبت‌نام</a> کنید."
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -326,6 +336,11 @@ core:
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} بعد"
+
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      title: تغییر نام مبحث
+      submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
@@ -439,6 +454,10 @@ core:
       submit_button: بازیابی گذرواژه
       title: => core.ref.reset_your_password
 
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "نام کاربری فقط می‌تواند شامل حروف، اعداد، و خطوط تیره باشد."
+
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
@@ -502,6 +521,7 @@ core:
     notifications: اعلان‌ها
     okay: باشه                                     # Referenced by flarum-tags.yml
     password: گذرواژه
+    rename: تغییر نام
     reply: پاسخ                                 # Referenced by flarum-mentions.yml
     reset_your_password: تنظیم دوباره گذرواژه
     restore: بازیابی

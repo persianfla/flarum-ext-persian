@@ -16,22 +16,22 @@ flarum-lock:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      locked_tooltip: Locked
+      locked_tooltip: قفل‌شده
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      lock_button: Lock
-      unlock_button: Unlock
+      lock_button: قفل
+      unlock_button: باز کردن
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_locked_text: "{username} locked"
+      discussion_locked_text: "توسط {username} قفل شد"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} locked the discussion."
-      discussion_unlocked_text: "{username} unlocked the discussion."
+      discussion_locked_text: "{username} مبحث را قفل کرد."
+      discussion_unlocked_text: "{username} مبحث را باز کرد."
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Someone locks a discussion I started
+      notify_discussion_locked_label: کسی مبحث من را قفل کرد
