@@ -1,6 +1,6 @@
 <?php
 
-namespace Sijad\Persian\Listener;
+namespace PersianFla\Persian\Listener;
 
 use Flarum\Event\ConfigureLocales;
 use Illuminate\Contracts\Events\Dispatcher;

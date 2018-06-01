@@ -1,10 +1,10 @@
 <?php
 
-namespace Sijad\Persian\Listener;
+namespace PersianFla\Persian\Listener;
 
 use Flarum\Event\DiscussionWillBeSaved;
 use Illuminate\Contracts\Events\Dispatcher;
-use Sijad\Persian\Util\Str;
+use PersianFla\Persian\Util\Str;
 
 class FixDiscussionSlug
 {

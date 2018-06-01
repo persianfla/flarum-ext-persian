@@ -1,6 +1,6 @@
 <?php
 
-namespace Sijad\Persian\Util;
+namespace PersianFla\Persian\Util;
 
 class Str
 {
