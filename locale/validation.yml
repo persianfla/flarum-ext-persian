@@ -4,7 +4,7 @@ validation:
   after: ":attribute باید تاریخی بعد از :date باشد."
   after_or_equal: ":attribute باید تاریخی بعد از :date، یا مطابق با آن باشد."
   alpha: ":attribute باید فقط حروف الفبا باشد."
-  alpha_dash: ":attribute باید فقط حروف الفبا، عدد و خط تیره باشد."
+  alpha_dash: ":attribute باید فقط حروف الفبا، اعداد، خط تیره و زیرخط باشد."
   alpha_num: ":attribute باید فقط حروف الفبا و عدد باشد."
   array: ":attribute باید آرایه باشد."
   before: ":attribute باید تاریخی قبل از :date باشد."
@@ -27,6 +27,16 @@ validation:
   exists: ":attribute انتخاب شده، معتبر نیست."
   file: ":attribute باید یک فایل باشد"
   filled: "فیلد :attribute الزامی است."
+  gt:
+    numeric: ":attribute باید بزرگتر از :value باشد."
+    file: ":attribute باید بزرگتر از :value کیلوبایت باشد."
+    string: ":attribute باید بیشتر از :value کاراکتر داشته باشد."
+    array: ":attribute باید بیشتر از :value آیتم داشته باشد."
+  gte:
+    numeric: ":attribute باید بزرگتر یا مساوی :value باشد."
+    file: ":attribute باید بزرگتر یا مساوی :value کیلوبایت باشد."
+    string: ":attribute باید بیشتر یا مساوی :value کاراکتر داشته باشد."
+    array: "attribute باید بیشتر یا مساوی :value آیتم داشته باشد."
   image: ":attribute باید تصویر باشد."
   in: ":attribute انتخاب شده، معتبر نیست."
   in_array: "فیلد :attribute در :other وجود ندارد."
@@ -35,6 +45,16 @@ validation:
   ipv4: ":attribute باید یک آدرس معتبر از نوع IPv4 باشد."
   ipv6: ":attribute باید یک آدرس معتبر از نوع IPv6 باشد."
   json: "فیلد :attribute باید یک رشته از نوع JSON باشد."
+  lt:
+    numeric: ":attribute باید کوچکتر از :value باشد."
+    file: ":attribute باید کوچکتر از :value کیلوبایت باشد."
+    string: ":attribute باید کمتر از :value کاراکتر داشته باشد."
+    array: ":attribute باید کمتر از :value آیتم داشته باشد."
+  lte:
+    numeric: ":attribute باید کوچکتر یا مساوی :value باشد."
+    file: ":attribute باید کوچکتر یا مساوی :value کیلوبایت باشد."
+    string: "attribute باید کمتر یا مساوی :value کاراکتر داشته باشد."
+    array: ":attribute باید کمتر یا مساوی :value آیتم داشته باشد."
   max:
     numeric: ":attribute نباید بزرگتر از :max باشد."
     file: ":attribute نباید بزرگتر از :max کیلوبایت باشد."
@@ -48,6 +68,7 @@ validation:
     string: ":attribute نباید کمتر از :min کاراکتر باشد."
     array: ":attribute نباید کمتر از :min آیتم باشد."
   not_in: ":attribute انتخاب شده، معتبر نیست."
+  not_regex: "فرمت :attribute معتبر نیست."
   numeric: ":attribute باید عدد باشد."
   present: "فیلد :attribute باید در پارامترهای ارسالی وجود داشته باشد."
   regex: "فرمت :attribute معتبر نیست."
@@ -55,7 +76,7 @@ validation:
   required_if: "هنگامی که :other برابر با :value است، فیلد :attribute الزامی است."
   required_unless: "فیلد :attribute ضروری است، مگر آنکه :other در :values موجود باشد."
   required_with: "در صورت وجود فیلد :values، فیلد :attribute الزامی است."
-  required_with_all: "در صورت وجود فیلدهای :values، فیلد :attribute الزامی است."
+  required_with_all: "در صورت وجود فیلدهای :values، فیلد :attribute نیز الزامی است."
   required_without: "در صورت عدم وجود فیلد :values، فیلد :attribute الزامی است."
   required_without_all: "در صورت عدم وجود هر یک از فیلدهای :values، فیلد :attribute الزامی است."
   same: ":attribute و :other باید مانند هم باشند."
@@ -69,6 +90,7 @@ validation:
   unique: ":attribute قبلا انتخاب شده است."
   uploaded: "آپلود فایل :attribute موفقیت آمیز نبود."
   url: "فرمت آدرس :attribute اشتباه است."
+  uuid: ":attribute یک UUID معتبر نمی‌باشد."
 
   attributes:
     username: نام کاربری

@@ -13,12 +13,16 @@ flarum-suspend:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} شما را برای {timeReadable} تعلیق کرد"
+      user_unsuspended_text: "{username} شما را تعلیق کرد"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: تعلیق برای همیشه
-      limited_time_label: تعلیق برای زمانی مشخص...
       limited_time_days_text: "روز"
+      limited_time_label: تعلیق برای زمانی مشخص...
       not_suspended_label: تعلیق نشده
       status_heading: وضعیت تعلیق
       submit_button: => core.ref.save_changes
