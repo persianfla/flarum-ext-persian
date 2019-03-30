@@ -4,4 +4,4 @@ before_script:
   - go get github.com/sijad/yaml-translation-utils/same-yaml
 
 script:
-  - bash test.sh
+  - bash ./scripts/test.sh

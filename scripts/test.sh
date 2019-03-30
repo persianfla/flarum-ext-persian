@@ -1,4 +1,4 @@
-VERSION=0.1.0-beta.6
+VERSION=0.1.0-beta.8
 
 TEMP_DIR=`mktemp -d`
 WORK_DIR=`pwd`

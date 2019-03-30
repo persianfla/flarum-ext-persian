@@ -9,7 +9,7 @@ flarum-sticky:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      sticky_discussions_label: مبحث چسبناک
+      sticky_discussions_label: Sticky discussions
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -21,12 +21,12 @@ flarum-sticky:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       sticky_button: => flarum-sticky.ref.sticky
-      unsticky_button: غیر چسبناک نمودن
+      unsticky_button: حذف چسبندگی
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_stickied_text: "{username} مبحث را چسبناک نمود."
-      discussion_unstickied_text: "{username} مبحث را از حالت چسبناک خارج نمود."
+      discussion_stickied_text: "{username} این مبحث را چسباناک کرد."
+      discussion_unstickied_text: "{username} حالت چسبناک را حذف کرد."
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

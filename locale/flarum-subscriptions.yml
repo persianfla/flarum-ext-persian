@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: دنبال نکن
-      unignore_button: نادیده نگیر
+      unfollow_button: دنبال نکردن
+      unignore_button: حذف نادیده گرفتن
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,24 +24,24 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} ارسال کرده"
+      new_post_text: "{username} چیزی نوشت"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: به طور خودکار گفتگویی را که پاسخ میدهم را دنبال کن
-      notify_new_post_label: کسی در مبحثی که من دنبال میکنم ارسال کند
+      follow_after_reply_label: به‌صورت خودکار مبحث‌هایی که به آن‌ها پاسخ می‌دهم را دنبال کن
+      notify_new_post_label: کسی در مبحثی که دنبال می‌کنم چیزی نوشت
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: با خبر شدن از تمامی پاسخ ها.
+      following_text: از تمامی پاسخ‌ها مطلع شوید.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: هیچوقت با خبر نشوید. از لیست گفتگو ها مخفی کن.
-      not_following_button: دنبال نمیشود
-      not_following_text: "با خبر شوید فقط وقتی @ذکر شدید."
-      notify_alert_tooltip: خبر گفتن از انجمن وقتی ارسالی های جدیدی هست.
-      notify_email_tooltip: وقتی ارسالی های جدید هست، ایمیل دریافت کن.
+      ignoring_text: هرگز متوجه نشودید. از لیست مباحث پنهان شود.
+      not_following_button: دنبال نشده
+      not_following_text: "فقط وقتی که از من @نام برده شد."
+      notify_alert_tooltip: دریافت اعلان جدید وقتی کسی چیزی نوشت
+      notify_email_tooltip: دریافت ایمیل وقتی کسی چیز جدیدی نوشت
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: دنبال کن
-    following: دنبال کردن
+    follow: دنبال کردن
+    following: دنبال شده
     ignoring: نادیده گرفتن
