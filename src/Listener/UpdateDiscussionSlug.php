@@ -2,18 +2,18 @@
 
 namespace PersianFla\Persian\Listener;
 
-use Flarum\Event\DiscussionWillBeSaved;
+use Flarum\Discussion\Event\Started;
 use Illuminate\Contracts\Events\Dispatcher;
 use PersianFla\Persian\Util\Str;
 
-class FixDiscussionSlug
+class UpdateDiscussionSlug
 {
     public function subscribe(Dispatcher $events)
     {
-        $events->listen(DiscussionWillBeSaved::class, [$this, 'fixSlug']);
+        $events->listen(Started::class, [$this, 'whenDiscussionIsStarted']);
     }
 
-    public function fixSlug(DiscussionWillBeSaved $event)
+    public function whenDiscussionIsStarted(Started $event)
     {
         $event->discussion->slug = Str::slug($event->discussion->title);
     }
